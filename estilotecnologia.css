@@ -1,0 +1,365 @@
+body{
+    background-color: #eeeee4;
+  
+  }
+  
+  body{
+    background-color: #eeeee4;
+  
+  }
+  
+  .menu_top {width: 90%;height: 60px;}
+  
+  .menu_top img {float: left;height: 40px;position: relative;
+  top:20px;left:20px;}
+  .menu.main-menu.linkMenu {text-decoration: none;
+  margin: 30px 8px 0px;font-weight: bold;font-family: Arial, Helvetica, sans-serif;
+  position: relative;color:#8a1538;left: 50%;top: 30px;}
+  
+    
+  .img-logo{
+    width: 60px; 
+    height: 100px;
+  }
+  
+  .section-banner-home
+  
+  {width: 100%;height: 500px;padding: 50px;margin: 30px auto; background-color: #eeeee4;}
+  
+  .section-banner-home img {height: 400px;}
+  .section-banner-home .texto-banner {margin-top: 30px;
+  font-size: 22px;}
+  
+  .section-banner-home .texto-banner h1 {font-size: 30px;width: 60%;font-weight: 500;
+  padding-bottom:20px; color:#8a1538}
+  
+  .section-banner-home .texto-banner p {font-size: 15px;margin-bottom: 20px; color:#8a1538}
+  .section-banner-home .texto-banner a {color: #8a1538;text-decoration: none;
+  background: #eeeee4;padding: 4px 14px;font-size: 15px;}
+  
+  
+  *{
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  }
+
+
+h2{
+    color:#8a1538;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.75rem;
+    position:absolute;
+    bottom: 2rem;
+    width:100%;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ .carousel-item{
+    position: relative;
+    width: 200px; 
+  height: 300px;
+  transition: 3s; */
+ }
+
+    
+
+
+/* configuração navbar menu */
+
+  
+  h1 {
+    color: #8a1538;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #8a1538;
+    text-align: center;
+  }
+  
+  nav#menu {
+    margin-top: 50px;
+    background: #eeeee4;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+  }
+  
+  nav#menu ul {
+    padding: 0;
+    background: #eeeee4;
+    margin: 0 auto;
+    display: inline-block;
+    height: 50px;
+  }
+  
+  nav#menu ul li {
+    float: left;
+    padding: 0 20px;
+    background: #eeeee4;
+    list-style: none;
+    margin-right: 5px;
+    line-height: 50px;
+    height: 50px;
+    }
+    
+
+
+nav#menu ul li:nth-child(1) {
+  margin-left: 5px;
+}
+
+nav#menu ul li.active {
+  background: #eeeee4;
+}
+
+nav#menu ul li a {
+  color: #8a1538;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+nav#menu h1#sitename {
+  font-size: 1.2em;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  left: 0.5em;
+  color: #8a1538;
+  opacity: 0;
+  
+  /*
+   * Same thing here as with the menu items.
+   * This element will be animated into its
+   * alt. state with the transition property
+   */
+  transition: opacity 0.1s ease-in-out;
+}
+/* video */
+.video{
+    background-color: #eeeee4;
+    
+}
+
+/* contagem regressiva */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .main-content {
+    align-items: center;
+    background: url("https://raw.githubusercontent.com/ThesllaDev/Launch-Countdown-Timer/1226d4c5d0ff2d60330da17c87bbf6cf426b3b9c/assets/img/bg-stars.svg"), url("https://raw.githubusercontent.com/ThesllaDev/Launch-Countdown-Timer/1226d4c5d0ff2d60330da17c87bbf6cf426b3b9c/assets/img/pattern-hills.svg") no-repeat;
+    background-color: #eeeee4;
+    background-position: bottom;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: "Red Hat Text", sans-serif;
+    min-height: 100vh;
+    justify-content: flex-start;
+    line-height: 1.5;
+    max-width: ;
+    padding-top: 15vh;
+    position: relative;
+  }
+  .main-content .main-title {
+    color: #8a1538;
+    font-size: 1.5em;
+    letter-spacing: 8px;
+    margin: 20px 20px 109px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .main-content .container-countdown {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .main-content .countdown-block {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 30px;
+  }
+  .main-content .countdown-block:last-child {
+    margin-right: 0;
+  }
+  .main-content .countdown-block .subtitle {
+    color: #eeeee4;
+  }
+  .main-content .time-element {
+    background-color: #eeeee4;
+    border-radius: 8px;
+    box-shadow: 0px 8px 0px 0px #eeeee4;
+    color: #8a1538;
+    font-size: 5.5em;
+    height: 140px;
+    line-height: 138px;
+    margin-bottom: 27px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 150px;
+  }
+  .main-content .time-element::before, .main-content .time-element::after {
+    background: #2a2a41;
+    border-radius: 50%;
+    content: "";
+    height: 10px;
+    position: absolute;
+    top: calc(50% - 5px);
+    width: 10px;
+    z-index: 6;
+  }
+  .main-content .time-element::before {
+    left: -5px;
+  }
+  .main-content .time-element::after {
+    right: -5px;
+  }
+  .main-content .time-element > span {
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+  .main-content .time-element .top {
+    background-color: #eeeee4;
+    transform-origin: 50% 100%;
+    transform: perspective(200px);
+    z-index: 3;
+  }
+  .main-content .time-element .top::after,
+  .main-content .time-element .bottom-back::after {
+    border-bottom: 1px solid #eeeee4;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  .main-content .time-element .bottom {
+    z-index: 1;
+  }
+  .main-content .time-element .bottom::before {
+    background-color: #33354d;
+    content: "";
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .main-content .time-element .bottom-back {
+    background-color: #33354d;
+    height: 50%;
+    overflow: hidden;
+    top: 0;
+    z-index: 2;
+  }
+  .main-content .time-element .bottom-back span {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .main-content .time-element .top,
+  .main-content .time-element .top-back {
+    backface-visibility: hidden;
+    height: 50%;
+    overflow: hidden;
+  }
+  .main-content .time-element .top-back {
+    background-color: #33354d;
+    bottom: 0;
+    transform-origin: 50% 0;
+    transform: perspective(200px) rotateX(180deg);
+    z-index: 4;
+  }
+  .main-content .time-element .top-back span {
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: -100%;
+  }
+  .main-content .attribution {
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    text-align: center;
+  }
+  .main-content .attribution .attribution-text {
+    color: #8486a9;
+  }
+  .main-content .attribution .social-medias {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  .main-content .attribution .social-medias .social-links {
+    margin: 10px;
+    font-size: 50px;
+  }
+  .main-content .attribution .social-links,
+  .main-content .attribution a {
+    color: #fff;
+  }
+  .main-content .attribution .social-links:hover,
+  .main-content .attribution a:hover {
+    color: #eeeee4;
+  }
+  .main-content .attribution .social-links:focus,
+  .main-content .attribution a:focus {
+    color:#eeeee4;
+    outline: #fff dotted 3px;
+    outline-offset: 0.5em;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .main-content .container-countdown {
+      flex-direction: column;
+    }
+  }
+
+  .rodape{
+    background-color: #eeeee4;
+    color: #8a1538;
+  }
+
+  h4{
+    color: #8a1538;
+    margin: 2cm;
+    border: solid;
+  }
+  
+  p{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    margin: 2cm;
+    color: #8a1538;
+    }
+
+    
+#button{
+  display:list-item;
+  background-color: #eeeee4;
+  color: #8a1538;
+  border:solid #8a1538; 
+  
+  
+  
+}
